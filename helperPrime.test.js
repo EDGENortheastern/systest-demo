@@ -13,4 +13,7 @@ describe("tdd the helper", () => {
     test("that 2 is a prime", () => {
         expect(isPrime(2)).toBe(true); // 2 is prime
     });
+    test("that 97 is a prime", () => {
+        expect(isPrime(97)).toBe(true); // 2 is prime
+    });
 });
