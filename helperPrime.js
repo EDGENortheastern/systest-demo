@@ -6,4 +6,7 @@ const isPrime = (number) => {
     return true;
 }
 
-module.exports = isPrime;
+// Conditional export for Node.js (Jest) environment
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+    module.exports = { isPrime }; // Exports as an object for Node.js
+  }

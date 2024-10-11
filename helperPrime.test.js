@@ -1,4 +1,4 @@
-const isPrime = require('./helperPrime'); // Ensure you're importing the helper
+const { isPrime } = require('./helperPrime'); // Ensure you're importing the helper
 
 describe("smoke test", () => {
     test("that Jest is working", () => {

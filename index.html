@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Prime Checker TDD</title>
+    <style>
+        .prime { background-color: green; color: white; }
+        .not-prime { background-color: red; color: white; }
+    </style>
 </head>
 <body>
     <div>
@@ -16,9 +20,10 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const buttonCheck = document.getElementById("buttonCheck");
-
+            const input = document.getElementById("num");
             buttonCheck.addEventListener("click", () => {
-                console.log("Here!")
+                const num = parseInt(input.value);
+                console.log("Here!", num, isPrime(num))
             })
         })
     </script>
