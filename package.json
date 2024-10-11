@@ -1,0 +1,23 @@
+{
+  "name": "systest-demo",
+  "version": "1.0.0",
+  "description": "A small seminar level demo for the Systems Testing course, Oct 2024",
+  "main": "helerPrime.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDGENortheastern/systest-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDGENortheastern/systest-demo/issues"
+  },
+  "homepage": "https://github.com/EDGENortheastern/systest-demo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
