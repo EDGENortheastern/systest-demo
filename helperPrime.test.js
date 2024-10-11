@@ -10,4 +10,7 @@ describe("tdd the helper", () => {
     test("that 0 is not prime", () => {
         expect(isPrime(0)).toBe(false); // 0 is not prime
     });
+    test("that 2 is a prime", () => {
+        expect(isPrime(2)).toBe(true); // 2 is prime
+    });
 });
