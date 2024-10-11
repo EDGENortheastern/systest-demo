@@ -4,7 +4,7 @@
   "description": "A small seminar level demo for the Systems Testing course, Oct 2024",
   "main": "helerPrime.test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
